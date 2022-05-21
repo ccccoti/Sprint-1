@@ -8,3 +8,78 @@
     transform: scale(1.01);
     box-shadow: 1px 1px 5px #d2d2d2;
 }
+.card-body {
+    padding: 0%;
+    text-align: left;
+}
+
+.container-logo{
+    background-color: #F7F7F7;
+}
+
+.navbar{
+    background-color: #295A84;
+    border-bottom: 0.1vh solid  #F7F7F7;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    align-items: stretch;
+    gap: 1vh;
+    position: relative;
+}
+.buttons a{
+    font-size: 2vh;
+    padding: 0.5vh 3vh;
+    border-radius: 5vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn-login {
+    color: #295A84;
+    background-color: #F7F7F7;
+    border: 0.1vh solid #F7F7F7;
+}
+
+.btn-register {
+    color: white;
+    background-color: #436b8d;
+    border: 0.1vh solid  #F7F7F7;
+}
+
+.buttons a:hover{
+    color: #F7F7F7;
+    background-color: #295A84;
+    box-shadow: 0px 0px 10px 0px #133350;
+    border: 0.5vh solid #F7F7F7;
+}
+
+body{
+    display:grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.main{
+    background:#F7F7F7;
+    background: linear-gradient(0deg, #F7F7F7 0%, #295A84 100%);
+}
+
+.footer {
+    background-color: #295A84;
+    position: relative;
+}
+
+.container-carousel{
+    border: 1px solid black;
+}
+
+.icon{
+    border-radius: 1px black;
+}
+  
