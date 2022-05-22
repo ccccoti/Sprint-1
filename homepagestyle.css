@@ -126,3 +126,19 @@ body {
     box-shadow: 0px 0px 10px 0px #133350;
     color: white;
 }
+#main-h1{
+    display: flex;
+    justify-content: space-between;
+}
+#tranferencias-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#trn-data{
+    padding-right: 1vh;
+}
+#trn{
+    padding-left: 1vh;
+    width: 150vh;
+}
