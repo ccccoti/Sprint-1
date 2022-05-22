@@ -6,9 +6,139 @@
 .card:hover {
     transition: all 0.3s ease;
     transform: scale(1.01);
-    box-shadow: 1px 1px 5px #d2d2d2;
+    box-shadow: 1px 1px 5px #F7F7F7;
 }
+
 .card-body {
     padding: 0%;
     text-align: left;
+}
+
+.container-logo,
+.jumbotron {
+    background-color: #F7F7F7 !important;
+    color: #295A84 !important;
+}
+
+.navbar {
+    background-color: #295A84;
+    border-bottom: 0.1vh solid #F7F7F7;
+}
+
+.register,
+.buttons,
+.login,
+.btn-enviar  {
+    display: flex;
+    justify-content: end;
+    align-items: stretch;
+    gap: 1vh;
+    position: relative;
+}
+
+.register,
+.buttons a,
+.login, 
+.btn-enviar {
+    font-size: 2vh;
+    padding: 0.5vh 3vh;
+    border-radius: 5vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn-login, .btn-enviar {
+    color: #295A84;
+    background-color: #F7F7F7;
+    border: 0.1vh solid #F7F7F7;
+}
+
+.btn-register,
+.login,
+.register {
+    color: white;
+    background-color: #436b8d;
+    border: 0.1vh solid #F7F7F7;
+}
+
+.buttons a:hover,
+.login:hover,
+.register:hover,
+.btn-enviar:hover {
+    color: #F7F7F7;
+    background-color: #295A84;
+    box-shadow: 0px 0px 10px 0px #133350;
+    border: 0.5vh solid #F7F7F7;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.main,
+#section {
+    background: #F7F7F7;
+    background: linear-gradient(0deg, #F7F7F7 0%, #295A84 100%);
+}
+
+.footer {
+    background-color: #295A84;
+    position: relative;
+}
+
+.caja {
+    border: 2px solid #F7F7F7;
+    background-color: #F7F7F7;
+    color: #133350;
+    box-shadow: 0px 0px 10px 0px #133350;
+    font-size: 14px;
+}
+
+#form {
+    border: 1px solid #295A84;
+    color: #133350;
+}
+
+#about,
+#contact {
+    background-color: #F7F7F7;
+}
+
+.texts,
+.pie,
+.h5 {
+    color: #295A84;
+}
+
+.h5,
+.h1 {
+    color: #133350;
+    -webkit-text-stroke: 0.3px white;
+}
+
+.caja2 {
+    background-color: #295A84;
+    box-shadow: 0px 0px 10px 0px #133350;
+    color: white;
+}
+#main-h1{
+    display: flex;
+    justify-content: space-between;
+}
+#tranferencias-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#trn-data{
+    padding-right: 1vh;
+}
+#trn{
+    padding-left: 1vh;
+    width: 150vh;
 }
