@@ -40,44 +40,57 @@
     </header>
 
     <main class="main">
-        <div class="form-container text-center">
+        <div class="form-container text-center mt-2">
             <section class="h-100">
                 <div class="container h-100">
                     <div class="row justify-content-sm-center h-100">
                         <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
-                            <div class="my-3">
-                                <img class="icon" src="icon_person.png" alt="" width="80">
-                            </div>
                             <div class="card shadow-lg">
                                 <div class="card-body p-4">
-                                    <form>
-                                        <div class="mb-3">
+                                    <form class="form">
+                                        <div class="mb-2">
                                             <div class="w-auto">
-                                                <label class="text-muted" for="user">User</label>
+                                                <label class="text-muted" for="user">Name</label>
                                             </div>
-                                            <input id="form" type="text" class="form-control" name="user" value=""
+                                            <input id="form" type="text" class="form-control" name="name" value=""
                                                 required autofocus>
                                         </div>
-                                        <div class="mb-3">
+                                        <div class="mb-2">
+                                            <div class="w-100">
+                                                <label class="text-muted" for="user">User</label>
+                                            </div>
+                                            <input id="form" type="text" class="form-control" name="user" required>
+                                        </div>
+                                        <div class="mb-2">
+                                            <div class="w-100">
+                                                <label class="text-muted" for="email">Email</label>
+                                            </div>
+                                            <input id="form" type="email" class="form-control" name="email" required>
+                                        </div>
+                                        <div class="mb-2">
                                             <div class="w-100">
                                                 <label class="text-muted" for="password">Password</label>
                                             </div>
                                             <input id="form" type="password" class="form-control" name="password"
                                                 required>
                                         </div>
+                                        <div class="mb-2">
+                                            <div class="w-100">
+                                                <label class="text-muted" for="phone">Phone</label>
+                                            </div>
+                                            <input id="form" type="tel" class="form-control" name="password" required>
+                                        </div>
                                         <div class="d-flex align-content-lg-center">
                                             <div class="form-check mb-3">
                                                 <input type="checkbox" name="remember" id="remember"
                                                     class="form-check-input">
-                                                <label for="remember" class="form-check-label">Remember Me</label>
+                                                <label for="remember" class="form-check-label">I agree with the</label>
+                                                <a href="">Terms and Conditions</a>
                                             </div>
                                         </div>
                                         <div class="d-flex justify-content-center">
-                                            <a href="homepage.html" class="login" type="button"
-                                                data-bs-toggle="button">Login</a>
-                                        </div>
-                                        <div class="mt-2 text-center">
-                                            <a href="">Forget your password?</a>
+                                            <a href="homepage.html" class="register" type="button"
+                                                data-bs-toggle="button">Register</a>
                                         </div>
                                     </form>
                                 </div>
@@ -88,7 +101,6 @@
             </section>
         </div>
     </main>
-
     <footer class="text-center footer">
         <div class="text-center text-light p-3">
             © 2022 Copyright:
